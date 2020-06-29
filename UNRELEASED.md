@@ -7,6 +7,8 @@
 ### Enhancements
 
 - Removed padding from the details container in `EmptyState` to account for new illustration size ([#3069](https://github.com/Shopify/polaris-react/pull/3069))
+- Added an `emptyState` prop to `ResourceList` to support in context empty states in list views ([#2569](https://github.com/Shopify/polaris-react/pull/2569))
+- Added a `preventInteraction` prop to `Tooltip`, `TooltipOverlay`, and `PositionedOverlay` to dismiss Tooltip once pointer is no longer over children ([#3086](https://github.com/Shopify/polaris-react/pull/3086))
 
 ### Bug fixes
 
